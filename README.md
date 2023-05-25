@@ -10,7 +10,7 @@ https://github.com/siesing/bashrc.d.git
 ./bashrc.d/install.sh
 ```
 To use the install script, make it executable (chmod +x install.sh), and then run it (./install.sh).
-This will create a symlink in /home/you-user-nameto the .bashrc.d folder.
+This will create a symlink in /home/you-user-name to the .bashrc.d folder.
 
 Make sure the following lines are present in /home/your-user-name/.bashrc.
 ```console
