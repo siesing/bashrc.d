@@ -13,7 +13,7 @@ This will create a symlink in $HOME to the .bashrc.d folder.
 
 Make sure the following is present in .bashrc. Replace **/path/to/** with /home/your-user-name/
 ```console
-for sh in /path/to/bashrc.d/*.sh ; do
+for sh in /path/to/.bashrc.d/*.sh ; do
     [ -r "$sh" ] && . "$sh"
 done
 unset s
