@@ -3,7 +3,7 @@ function cl() {
     DIR="$*"
     # if no DIR given, run on current directory
     if [ $# -lt 1 ]; then
-        DIR=$(PWD)
+        DIR=$(pwd)
     fi
     builtin cd "${DIR}" &&
         # use your preferred ls command
