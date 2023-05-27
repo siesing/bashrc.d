@@ -1,4 +1,4 @@
-# Files and Folders
+# Files and directories
 alias lt='ls --human-readable --size -1 -S --classify --group-directories-first' # sort files by file size
 alias ls='ls --color=auto'                  # list with colored output
 alias la='ls -A'                            # list all files including hidden files
@@ -12,14 +12,15 @@ alias ..='cd ../..'                         # go up two directories
 alias ...='cd ../../..'                     # go up three directories
 alias tarc='tar -tvf'                       # view .tar content
 alias nano='sudo nano'                      # open file with nano
-alias count='find . -type f | wc -l'        # count number of files in folder
+alias count='find . -type f | wc -l'        # count number of files in directory
 alias h='history'                           # view the bash history
+alias execute='chmod +x'                    # make script file executable
 alias cd='cl'
 
 # Misc
 alias myip='curl ipinfo.io/ip'                      # show public IP
 alias c='clear'                                     # clear console
 alias refreshaliases='source ~/.bashrc'             # refresh .bash_aliases
-alias openports='netstat -tulanp'              # show open ports
+alias openports='netstat -tulanp'                   # show open ports
 alias aliases='cat .bash_aliases'                   # print all aliases
 alias datetimenow='date +"%Y-%m-%d" && date +"%T"'  # date and time
