@@ -17,8 +17,9 @@ alias h='history'                           # view the bash history
 alias cd='cl'
 
 # Misc
-alias myip='curl ipinfo.io/ip'              # show public IP
-alias c='clear'                             # clear console
-alias refreshaliases='source ~/.bashrc'     # refresh .bash_aliases
-alias openports='sudo netstat -tulanp'      # show open ports
-alias aliases='cat .bash_aliases'           # print all aliases
+alias myip='curl ipinfo.io/ip'                      # show public IP
+alias c='clear'                                     # clear console
+alias refreshaliases='source ~/.bashrc'             # refresh .bash_aliases
+alias openports='netstat -tulanp'              # show open ports
+alias aliases='cat .bash_aliases'                   # print all aliases
+alias datetimenow='date +"%Y-%m-%d" && date +"%T"'  # date and time
