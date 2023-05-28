@@ -23,3 +23,5 @@ alias c='clear'                                     # clear console
 alias refreshaliases='source ~/.bashrc'             # refresh .bash_aliases
 alias openports='netstat -tulanp'                   # show open ports
 alias datetimenow='date +"%Y-%m-%d" && date +"%T"'  # date and time
+alias x='exit'                                      # exit
+alias x='bye'                                      # exit
