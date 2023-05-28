@@ -20,7 +20,7 @@ Before diving into the Terminal wonderland, let's ensure we're fully equipped fo
 if [ -d ~/.bashrc.d ]; then
 	for sh in ~/.bashrc.d/*; do
 		if [ -f "$sh" ]; then
-			. "$rc"
+			. "$sh"
 		fi
 	done
 fi
