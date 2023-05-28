@@ -1,6 +1,9 @@
 # .bashrc.d
 Behold, the treasure trove of my Bash aliases and functions! It's like a secret stash of awesomeness, tailored for Fedora. But hey, if you're rocking a different distro, fear not! Simply swap out the Fedora file with one that contains your own magical aliases for your distro of choice, and let the party begin. 
 
+#### :heart: Remember Sharing Is Caring
+> "The Only Constant in Life Is Change." - Heraclitus
+
 ## How to use
 Clone, conquer, and make things happen! Get your hands on the repository like a pro, 
 ```console
