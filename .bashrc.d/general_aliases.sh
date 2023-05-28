@@ -15,7 +15,6 @@ alias nano='sudo nano'                      # open file with nano
 alias count='find . -type f | wc -l'        # count number of files in directory
 alias h='history'                           # view the bash history
 alias execute='chmod +x'                    # make script file executable
-alias reload='reload'                       # reload user specific aliases and functions
 alias cd='cl'                               # change to the specified directory and list its contents
 
 # Misc
