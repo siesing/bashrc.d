@@ -16,6 +16,7 @@ alias count='find . -type f | wc -l'        # count number of files in directory
 alias h='history'                           # view the bash history
 alias execute='chmod +x'                    # make script file executable
 alias cd='cl'                               # change to the specified directory and list its contents
+alias wget="wget -c"                        # wget with continue
 
 # Misc
 alias myip='curl ipinfo.io/ip'                      # show public IP
