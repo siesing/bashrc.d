@@ -5,4 +5,4 @@ alias fsearch="flatpak search"                          # search for remote apps
 
 
 alias code="flatpak run com.visualstudio.code"          # start vscode
-alias code="flatpak run com.bitwarden.desktop"          # start bitwarden
+alias bitwarden="flatpak run com.bitwarden.desktop"     # start bitwarden
