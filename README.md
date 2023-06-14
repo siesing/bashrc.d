@@ -7,9 +7,13 @@ Behold, the treasure trove of my Bash aliases and functions! It's like a secret 
 ## How to use
 Clone, conquer, and make things happen! Get your hands on the repository like a pro, 
 ```console
-https://github.com/siesing/bashrc.d.git
+git clone https://github.com/siesing/bashrc.d.git
 ```
-then sprinkle some magic dust on the `install.sh` file with a little command called `chmod +x install.sh`.
+then sprinkle some magic dust on the `install.sh` file with a little command called `chmod +x`.
+
+```console
+chmod +x install.sh
+```
 
 Now give that script a high-five and hit the runway by running it like there's no tomorrow.
 ```console
