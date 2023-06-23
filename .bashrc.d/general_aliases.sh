@@ -20,3 +20,5 @@ alias wget="wget -c"                                                            
 alias x='exit'                                                                      # exit
 alias bye='exit'                                                                    # exit
 alias c='clear'                                                                     # clear console
+alias reboot="sudo reboot"                                                          # reboot
+alias shutdown="sudo shutdown -h now"                                                  # shutdown straight away
