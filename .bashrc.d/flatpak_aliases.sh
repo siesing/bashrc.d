@@ -4,6 +4,3 @@ alias fremove="flatpak uninstall"                       # remove an installed ap
 alias fsearch="flatpak search"                          # search for remote apps/runtimes
 alias fupdate="flatpak update"                          # update all your installed applications and runtimes
 alias fremotes="flatpak remotes"                        # list the remotes
-
-alias code="flatpak run com.visualstudio.code"          # start vscode
-alias bitwarden="flatpak run com.bitwarden.desktop"     # start bitwarden
